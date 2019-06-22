@@ -7,12 +7,10 @@ public class Teste {
 	
 
 	public static void main(String[] args) throws IOException {
-		
-		
-		
+	
 	   ArrayList numeros = new ArrayList();
 	          
-	  Scanner inputFile  = new Scanner( new FileReader("C:\\Users\\Crisdavid\\Downloads\\Ordenacao\\teste_10000_3.dat"));
+	    Scanner inputFile  = new Scanner( new FileReader("C:\\Users\\Crisdavid\\Downloads\\Ordenacao\\teste_10000_3.dat"));
 	          
 	      while(inputFile.hasNextInt()) {
 	      numeros.add(inputFile.nextInt());
@@ -35,8 +33,6 @@ public class Teste {
 
 	private static void mergeSort(int [] a, int n) {
 		
-       	 
-       	 
        	    if (n < 2) {
        	        return;
        	    }
@@ -55,8 +51,6 @@ public class Teste {
        	 
        	    merge(a, l, r, mid, n - mid);
        	    
-       	
-		
 	}
 	
 	public static void merge(
